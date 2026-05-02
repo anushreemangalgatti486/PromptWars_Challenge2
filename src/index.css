@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body text-text-primary bg-background-light antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-surface-light/80 backdrop-blur-md border border-border-light shadow-md;
+  }
+  .glass-panel-dark {
+    @apply bg-primary/80 backdrop-blur-md border border-border-dark shadow-md;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary text-text-inverse font-medium rounded-pill hover:bg-primary/90 transition-all duration-300 shadow-sm;
+  }
+  .btn-amber {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-secondary text-primary font-semibold rounded-pill hover:bg-secondary/90 hover:shadow-glow-amber transition-all duration-300;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-primary text-primary font-medium rounded-pill hover:bg-primary hover:text-text-inverse transition-all duration-300;
+  }
+  .btn-outline-white {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-surface-light text-surface-light font-medium rounded-pill hover:bg-surface-light hover:text-primary transition-all duration-300;
+  }
+  .rounded-pill {
+    border-radius: 9999px;
+  }
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent-red;
+}

@@ -1,0 +1,252 @@
+﻿gcloud.cmd : C:\Users\User\AppData\Local\Google\Cloud 
+SDK\google-cloud-sdk\bin\..\lib\third_party\google\cloud\__init__.py:20: UserWarning: pkg_resources is deprecated as 
+an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal 
+as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+At line:1 char:1
++ & "C:\Users\User\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\User\A... Setuptools<81.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  import pkg_resources
+----------------------------- REMOTE BUILD OUTPUT ------------------------------
+starting build "68cae0cc-296b-4e83-b70d-80965f6a0dda"
+FETCHSOURCE
+Fetching storage object: gs://run-sources-promptwars2-495111-us-central1/services/electverse/1777729728.761309-439b02d809934edbbc06166830144324.zip#1777729776601394
+Copying gs://run-sources-promptwars2-495111-us-central1/services/electverse/1777729728.761309-439b02d809934edbbc06166830144324.zip#1777729776601394...
+/ [0 files][    0.0 B/ 16.7 MiB]                                                
+/ [1 files][ 16.7 MiB/ 16.7 MiB]
+Operation completed over 1 objects/16.7 MiB.
+Archive:  /tmp/source-archive.zip
+   creating: /workspace/public/
+   creating: /workspace/src/
+   creating: /workspace/public/media/
+   creating: /workspace/src/assets/
+   creating: /workspace/src/components/
+   creating: /workspace/src/pages/
+   creating: /workspace/src/components/home/
+   creating: /workspace/src/components/layout/
+   creating: /workspace/src/components/learn/
+  inflating: /workspace/.dockerignore
+  inflating: /workspace/build.log
+  inflating: /workspace/build2.log
+  inflating: /workspace/eslint.config.js
+  inflating: /workspace/index.html
+  inflating: /workspace/package-lock.json
+  inflating: /workspace/package.json
+  inflating: /workspace/postcss.config.js
+  inflating: /workspace/README.md
+  inflating: /workspace/tailwind.config.js
+  inflating: /workspace/vite.config.js
+  inflating: /workspace/public/favicon.svg
+  inflating: /workspace/public/icons.svg
+  inflating: /workspace/public/media/Election_count_to_results_declared_202605021155.mp4
+  inflating: /workspace/public/media/Election_rally_crowd_animation_202605021139.mp4
+  inflating: /workspace/public/media/Man_inserting_ballot_box_202605021150.mp4
+  inflating: /workspace/public/media/Polling_station_Election_Day_ani??_202605021144.mp4
+  inflating: /workspace/src/App.css
+  inflating: /workspace/src/App.jsx
+  inflating: /workspace/src/index.css
+  inflating: /workspace/src/main.jsx
+  inflating: /workspace/src/assets/hero.png
+  inflating: /workspace/src/assets/react.svg
+  inflating: /workspace/src/assets/vite.svg
+  inflating: /workspace/src/components/home/CinematicBanner.jsx
+  inflating: /workspace/src/components/home/CountingResults.jsx
+  inflating: /workspace/src/components/home/CtaSection.jsx
+  inflating: /workspace/src/components/home/HeroSection.jsx
+  inflating: /workspace/src/components/home/PollingStation.jsx
+  inflating: /workspace/src/components/home/QuickStart.jsx
+  inflating: /workspace/src/components/home/RallyParticipation.jsx
+  inflating: /workspace/src/components/home/StatsTicker.jsx
+  inflating: /workspace/src/components/home/WorldElectionsPreview.jsx
+  inflating: /workspace/src/components/layout/Footer.jsx
+  inflating: /workspace/src/components/layout/Navbar.jsx
+  inflating: /workspace/src/components/layout/SparkCursor.jsx
+  inflating: /workspace/src/components/learn/EligibilityTab.jsx
+  inflating: /workspace/src/components/learn/MythsTab.jsx
+  inflating: /workspace/src/components/learn/SimulatorTab.jsx
+  inflating: /workspace/src/components/learn/StepsTab.jsx
+  inflating: /workspace/src/components/learn/SystemsTab.jsx
+  inflating: /workspace/src/components/learn/TimelineTab.jsx
+  inflating: /workspace/src/pages/CalendarPage.jsx
+  inflating: /workspace/src/pages/CountriesPage.jsx
+  inflating: /workspace/src/pages/GlossaryPage.jsx
+  inflating: /workspace/src/pages/HomePage.jsx
+  inflating: /workspace/src/pages/LearnHubPage.jsx
+  inflating: /workspace/src/pages/ProgressPage.jsx
+  inflating: /workspace/src/pages/QuizPage.jsx
+BUILD
+Starting Step #0 - "pre-buildpack"
+Step #0 - "pre-buildpack": Pulling image: us-central1-docker.pkg.dev/serverless-runtimes/utilities/buildpack-shim:base_20260226_18_04_RC00
+Step #0 - "pre-buildpack": base_20260226_18_04_RC00: Pulling from serverless-runtimes/utilities/buildpack-shim
+Step #0 - "pre-buildpack": Digest: sha256:a5dd0e0a99ed0c8863989f7f392d6aa0d1b6f7d9e579ed1fea765a09126c93e6
+Step #0 - "pre-buildpack": Status: Downloaded newer image for us-central1-docker.pkg.dev/serverless-runtimes/utilities/buildpack-shim:base_20260226_18_04_RC00
+Step #0 - "pre-buildpack": us-central1-docker.pkg.dev/serverless-runtimes/utilities/buildpack-shim:base_20260226_18_04_RC00
+Step #0 - "pre-buildpack": Preparing directory /layers
+Step #0 - "pre-buildpack": Preparing directory /workspace
+Step #0 - "pre-buildpack": Preparing directory /builder/home
+Step #0 - "pre-buildpack": Preparing directory /builder/outputs
+Step #0 - "pre-buildpack": Preparing directory /platform/env
+Step #0 - "pre-buildpack": Passing build environment variable BUILDER_OUTPUT to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BUILDER_VERSION to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BUILDER_IMAGE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_RUN_IMAGE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_SOURCE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_USE_SERVERLESS_RUNTIMES_TARBALLS to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_RUNTIME_IMAGE_REGION to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_BUILD_ENV to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_BUILD_UNIVERSE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_TPC_TARBALL_PROJECT to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_TPC_HOSTNAME to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable X_GOOGLE_SET_NODE_HEAP_SIZE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BUILD_ID to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BASE_IMAGE to buildpacks
+Finished Step #0 - "pre-buildpack"
+Starting Step #1 - "build"
+Step #1 - "build": Pulling image: us-central1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260426_RC00
+Step #1 - "build": universal_builder_20260426_RC00: Pulling from serverless-runtimes/google-24-full/builder/universal
+Step #1 - "build": 817807f3c64e: Already exists
+Step #1 - "build": 7002803b4e52: Already exists
+Step #1 - "build": bd2b9a9f4409: Already exists
+Step #1 - "build": be017416d393: Pulling fs layer
+Step #1 - "build": fe0a88c014e5: Pulling fs layer
+Step #1 - "build": bf9f17fe63e1: Pulling fs layer
+Step #1 - "build": 3988f2b6e849: Pulling fs layer
+Step #1 - "build": 4e79d619e023: Pulling fs layer
+Step #1 - "build": cf61c145d95d: Pulling fs layer
+Step #1 - "build": 01bf35e32f5c: Pulling fs layer
+Step #1 - "build": 4f4fb700ef54: Pulling fs layer
+Step #1 - "build": 01bf35e32f5c: Waiting
+Step #1 - "build": 4f4fb700ef54: Waiting
+Step #1 - "build": 4e79d619e023: Verifying Checksum
+Step #1 - "build": 4e79d619e023: Download complete
+Step #1 - "build": cf61c145d95d: Download complete
+Step #1 - "build": fe0a88c014e5: Verifying Checksum
+Step #1 - "build": fe0a88c014e5: Download complete
+Step #1 - "build": 3988f2b6e849: Verifying Checksum
+Step #1 - "build": 3988f2b6e849: Download complete
+Step #1 - "build": be017416d393: Verifying Checksum
+Step #1 - "build": be017416d393: Download complete
+Step #1 - "build": 01bf35e32f5c: Verifying Checksum
+Step #1 - "build": 01bf35e32f5c: Download complete
+Step #1 - "build": 4f4fb700ef54: Download complete
+Step #1 - "build": bf9f17fe63e1: Verifying Checksum
+Step #1 - "build": bf9f17fe63e1: Download complete
+Step #1 - "build": be017416d393: Pull complete
+Step #1 - "build": fe0a88c014e5: Pull complete
+Step #1 - "build": bf9f17fe63e1: Pull complete
+Step #1 - "build": 3988f2b6e849: Pull complete
+Step #1 - "build": 4e79d619e023: Pull complete
+Step #1 - "build": cf61c145d95d: Pull complete
+Step #1 - "build": 01bf35e32f5c: Pull complete
+Step #1 - "build": 4f4fb700ef54: Pull complete
+Step #1 - "build": Digest: sha256:09ad6c62d9f423c760d69d4c1a77d380e77a911533af9e85d1ecc538e6547090
+Step #1 - "build": Status: Downloaded newer image for us-central1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260426_RC00
+Step #1 - "build": us-central1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260426_RC00
+Step #1 - "build": Warning: No cached data will be used, no cache specified.
+Step #1 - "build": ===> ANALYZING
+Step #1 - "build": Image with name "us-central1-docker.pkg.dev/promptwars2-495111/cloud-run-source-deploy/electverse:latest" not found
+Step #1 - "build": ===> DETECTING
+Step #1 - "build": target distro name/version labels not found, reading /etc/os-release file
+Step #1 - "build": 3 of 5 buildpacks participating
+Step #1 - "build": google.nodejs.runtime    1.0.0
+Step #1 - "build": google.nodejs.npm        1.1.1
+Step #1 - "build": google.utils.label-image 0.0.2
+Step #1 - "build": ===> RESTORING
+Step #1 - "build": Skipping buildpack layer analysis
+Step #1 - "build": ===> BUILDING
+Step #1 - "build": target distro name/version labels not found, reading /etc/os-release file
+Step #1 - "build": === Node.js - Runtime Using Runner (google.nodejs.runtime@1.0.0) ===
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Resolved version 24.15.0 for Node.js from region us-central1
+Step #1 - "build": ***** CACHE MISS: "nodejs"
+Step #1 - "build": Installing Node.js v24.15.0.
+Step #1 - "build": Runtime successfully downloaded from us-central1-docker.pkg.dev/serverless-runtimes/runtimes-ubuntu2404/nodejs:24.15.0
+Step #1 - "build": Installing the heapsize.sh exec.d script.
+Step #1 - "build": === Node.js - Npm Using Runner (google.nodejs.npm@1.1.1) ===
+Step #1 - "build": ***** CACHE MISS: "npm_modules"
+Step #1 - "build": Installing application dependencies.
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": Running "npm ci --quiet --no-fund --no-audit (NODE_ENV=development)"
+Step #1 - "build":
+Step #1 - "build": added 249 packages in 9s
+Step #1 - "build": Done "npm ci --quiet --no-fund --no-audit (NODE_ENV=development)" (9.367000498s)
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": Running "npm run build"
+Step #1 - "build":
+Step #1 - "build": > temp-app@0.0.0 build
+Step #1 - "build": > vite build
+Step #1 - "build":
+Step #1 - "build": vite v8.0.10 building client environment for production...
+Step #1 - "build": 
+transforming...
+Step #1 - "build": ? 2720 modules transformed.
+Step #1 - "build": ? Build failed in 1.89s
+Step #1 - "build": error during build:
+Step #1 - "build": Build failed with 1 error:
+Step #1 - "build":
+Step #1 - "build": [plugin vite:prepare-out-dir]
+Step #1 - "build": Error: ENOENT: no such file or directory, stat '/workspace/public/media/Polling_station_Election_Day_ani??_202605021144.mp4'
+Step #1 - "build":     at Object.statSync (node:fs:1726:25)
+Step #1 - "build":     at copyDir (file:///workspace/node_modules/vite/dist/node/chunks/node.js:1900:10)
+Step #1 - "build":     at copyDir (file:///workspace/node_modules/vite/dist/node/chunks/node.js:1900:43)
+Step #1 - "build":     at prepareOutDir (file:///workspace/node_modules/vite/dist/node/chunks/node.js:32755:4)
+Step #1 - "build":     at PluginContextImpl.handler (file:///workspace/node_modules/vite/dist/node/chunks/node.js:32738:6)
+Step #1 - "build":     at PluginContextImpl.handler (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33278:13)
+Step #1 - "build":     at plugin (file:///workspace/node_modules/rolldown/dist/shared/bindingify-input-options-DbbBhzky.mjs:1255:12)
+Step #1 - "build":     at plugin.<computed> (file:///workspace/node_modules/rolldown/dist/shared/bindingify-input-options-DbbBhzky.mjs:1612:18)
+Step #1 - "build":     at aggregateBindingErrorsIntoJsError (file:///workspace/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:48:18)
+Step #1 - "build":     at unwrapBindingResult (file:///workspace/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:18:128)
+Step #1 - "build":     at #build (file:///workspace/node_modules/rolldown/dist/shared/rolldown-build-DSxL8qiP.mjs:3317:34)
+Step #1 - "build":     at async buildEnvironment (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33018:64)
+Step #1 - "build":     at async Object.build (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33440:19)
+Step #1 - "build":     at async Object.buildApp (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33437:153)
+Step #1 - "build":     at async CAC.<anonymous> (file:///workspace/node_modules/vite/dist/node/cli.js:778:3) {
+Step #1 - "build":   errors: [Getter/Setter]
+Step #1 - "build": }
+Step #1 - "build": Done "npm run build" (2.459134982s)
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": failed to build: (error ID: 1a2262f3):
+Step #1 - "build": > temp-app@0.0.0 build
+Step #1 - "build": > vite build
+Step #1 - "build":
+Step #1 - "build": vite v8.0.10 building client environment for production...
+Step #1 - "build": 
+transforming...? 2720 modules transformed.
+Step #1 - "build": ? Build failed in 1.89s
+Step #1 - "build": error during build:
+Step #1 - "build": Build failed with 1 error:
+Step #1 - "build":
+Step #1 - "build": [plugin vite:prepare-out-dir]
+Step #1 - "build": Error: ENOENT: no such file or directory, stat '/workspace/public/media/Polling_station_Election_Day_ani??_202605021144.mp4'
+Step #1 - "build":     at Object.statSync (node:fs:1726:25)
+Step #1 - "build":     at copyDir (file:///workspace/node_modules/vite/dist/node/chunks/node.js:1900:10)
+Step #1 - "build":     at copyDir (file:///workspace/node_modules/vite/dist/node/chunks/node.js:1900:43)
+Step #1 - "build":     at prepareOutDir (file:///workspace/node_modules/vite/dist/node/chunks/node.js:32755:4)
+Step #1 - "build":     at PluginContextImpl.handler (file:///workspace/node_modules/vite/dist/node/chunks/node.js:32738:6)
+Step #1 - "build":     at PluginContextImpl.handler (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33278:13)
+Step #1 - "build":     at plugin (file:///workspace/node_modules/rolldown/dist/shared/bindingify-input-options-DbbBhzky.mjs:1255:12)
+Step #1 - "build":     at plugin.<computed> (file:///workspace/node_modules/rolldown/dist/shared/bindingify-input-options-DbbBhzky.mjs:1612:18)
+Step #1 - "build":     at aggregateBindingErrorsIntoJsError (file:///workspace/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:48:18)
+Step #1 - "build":     at unwrapBindingResult (file:///workspace/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:18:128)
+Step #1 - "build":     at #build (file:///workspace/node_modules/rolldown/dist/shared/rolldown-build-DSxL8qiP.mjs:3317:34)
+Step #1 - "build":     at async buildEnvironment (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33018:64)
+Step #1 - "build":     at async Object.build (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33440:19)
+Step #1 - "build":     at async Object.buildApp (file:///workspace/node_modules/vite/dist/node/chunks/node.js:33437:153)
+Step #1 - "build":     at async CAC.<anonymous> (file:///workspace/node_modules/vite/dist/node/cli.js:778:3) {
+Step #1 - "build":   errors: [Getter/Setter]
+Step #1 - "build": }
+Step #1 - "build": NOTE: Running the default build script can be skipped by passing the empty environment variable "GOOGLE_NODE_RUN_SCRIPTS=" to the build
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": Sorry your project couldn't be built.
+Step #1 - "build": Our documentation explains ways to configure Buildpacks to better recognise your project:
+Step #1 - "build":  -> https://cloud.google.com/docs/buildpacks/overview
+Step #1 - "build": If you think you've found an issue, please report it:
+Step #1 - "build":  -> https://github.com/GoogleCloudPlatform/buildpacks/issues/new
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": ERROR: failed to build: exit status 1
+Finished Step #1 - "build"
+ERROR
+ERROR: build step 1 "us-central1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260426_RC00" failed: step exited with non-zero status: 51
+--------------------------------------------------------------------------------
